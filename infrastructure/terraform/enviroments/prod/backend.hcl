@@ -1,4 +1,4 @@
-bucket       = "forgejo-hub-terraform-state"
+bucket       = "forgejohub-terraform-state"
 key          = "prod/terraform.tfstate"
 region       = "eu-north-1"
 encrypt      = true
