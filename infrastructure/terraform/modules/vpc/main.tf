@@ -2,9 +2,9 @@ module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
   version = "6.0.1"
 
-  name = var.nam
-  cidr = var.vpc_cidr
-  azs = var.availability_zones
+  name = var.name
+  cidr = var.cidr
+  azs  = var.azs
 
   private_subnets = var.private_subnets
   public_subnets  = var.public_subnets
